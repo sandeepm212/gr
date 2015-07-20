@@ -8,6 +8,10 @@
 	color: "#000"
 }
 
+"#products": {
+	top: "25dp"
+}
+
 "#label": {
 	font: {
 		fontSize: 12
@@ -18,7 +22,9 @@
 	accessoryType: Titanium.UI.LIST_ACCESSORY_TYPE_DISCLOSURE,
 	backgroundColor: 'red'
 }
-
+"#image": {
+	left: 0
+}
 "#symbol": {
 	left: 15,
 	color: "black",

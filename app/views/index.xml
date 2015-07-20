@@ -4,17 +4,17 @@
 		<ListView id="products" defaultItemTemplate="elementTemplate">
 		    <Templates>
 		        <ItemTemplate name="elementTemplate">
-		            <Label bindId="symbol" id="symbol" />
+		            <!--<Label bindId="symbol" id="symbol" />-->
+		            <ImageView bindId="image" id="image"  />
 		            <View id="atomProperties">
 		                <Label bindId="name" id="name" />
 		                <View id="secondLine">
 		                	<Label class="line2 fieldLabel" text="Number: " />
 		                    <Label class="line2" bindId="number" id="number" />
-		                	<Label class="line2 fieldLabel" text="Atomic Masss: " />
+		                	<Label class="line2 fieldLabel" text="Price: " />
 		                    <Label class="line2" bindId="mass" id="mass" />
 		                </View>
 		            </View>
-					<ImageView bindId="image" id="image" />
 		        </ItemTemplate>
 		    </Templates>
 			<ListSection>
